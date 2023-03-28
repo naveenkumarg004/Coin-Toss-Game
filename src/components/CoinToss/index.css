@@ -1,0 +1,62 @@
+.bg {
+  width: 100vw;
+
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.content-div {
+  width: 80%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .content-div {
+    width: 60%;
+  }
+}
+.head {
+  color: #a35200;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  .head {
+    font-size: 45px;
+  }
+}
+.para {
+  color: #334155;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .para {
+    font-size: 35px;
+  }
+}
+.toss-image {
+  width: 55%;
+}
+.toss-btn {
+  background-color: #f9d423;
+  color: #a35200;
+  width: 80px;
+  height: 30px;
+  border-radius: 8px;
+  border-style: none;
+  font-weight: 500;
+}
+.count-cont {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+.count-text {
+  font-size: 12px;
+}
